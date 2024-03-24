@@ -11,7 +11,7 @@ int is_separator(char c) {
 
 int count_words(char *str) {
     int count=0;
-    int in_word=0; // Flag to track if currently in a word
+    int in_word=0;
     while (*str) {
         if (is_separator(*str)) in_word = 0;
         else if (!in_word) {
@@ -107,14 +107,14 @@ char *ft_convert_base(char *nbr, char *base_from, char *base_to) {
 }
 
 int main() {
-    char str[]="Hello\tworld\nHow are you?";
+    char str[]="Hello\tworld\nHow are you?"; //Change the value if you want
     char **words=ft_split_whitespaces(str);
     printf("057 & 058 : ");
     ft_print_words_tables(words);
   
-    char nbr[]="10101";
-    char base_from[]="01";
-    char base_to[]="0123456789ABCDEF";
+    char nbr[]="10101"; //Change the value if you want
+    char base_from[]="01"; //Change the value if you want
+    char base_to[]="0123456789ABCDEF"; //Change the value if you want
     printf("\n059 : number in base %s is %s, converted to base %s is %s", base_from, nbr, base_to, ft_convert_base(nbr, base_from, base_to));
 
     for (int i=0; words[i]!=NULL; i++) free(words[i]);
