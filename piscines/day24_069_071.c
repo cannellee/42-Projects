@@ -1,7 +1,7 @@
 // 42 projects
-// Piscine - 066-068
+// Piscine - 069-071
 
-//NOTE : RUN WITH ft_ultimator.h" !!
+//NOTE : RUN WITH ft_ultimator.h !!
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -53,7 +53,7 @@ int main(int argc, char **argv) {
 	factory[1]=(char *)malloc(10*sizeof(char));
 	factory[2]=NULL;
 
-	//EXEMPLES :
+	//EXAMPLES :
 	factory[0][0] = 'H';
 	factory[0][1] = 'e';
 	factory[0][2] = 'l';
