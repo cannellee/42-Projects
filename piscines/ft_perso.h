@@ -1,4 +1,4 @@
-//NOTE : RUN WITH day_25_072_074.c !!
+//NOTE : RUN WITH day_25_072_074.c OR day_26_075_077.c !!
 #ifndef FT_PERSO_H
 #define FT_PERSO_H
 
