@@ -1,4 +1,4 @@
-//NOTE : RUN WITH exam_16.c !!
+//NOTE : RUN WITH exam_16.c OR exam_17.c !!
 #ifndef FT_LIST_H
 #define FT_LIST_H
 
